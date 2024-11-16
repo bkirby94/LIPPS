@@ -13,6 +13,8 @@ html {
     box-sizing: inherit;
 }
 
+/* Typography Defaults */
+
 body {
     font-family: Noto Sans JP;
     color: var(--black);
@@ -20,6 +22,48 @@ body {
     font-size: 1.08rem;
 }
 
+h1, h2, h3, h4 {
+    font-family: Work Sans;
+    color: #969696;
+    line-height: 1.1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.9rem;
+    letter-spacing: .2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+}
+
+
+/* Components */
+
 a {
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.component {
+    margin: 1rem;
+}
+
+.component img {
+    max-width: initial;
+}
+
+.component__img {
+    border: 1px solid #000;
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid #000;
 }
