@@ -1,0 +1,25 @@
+root {
+    --black: #000;
+    --red: #e61518;
+    --dark-gray: #4f4f4f;
+    --med-gray: #969696;
+    --light-gray: #f2f2f2;
+    --white: #fff;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Noto Sans JP;
+    color: var(--black);
+    line-height: 1.7;
+    font-size: 1.08rem;
+}
+
+a {
+    text-decoration: none;
+}
