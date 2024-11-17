@@ -27,6 +27,7 @@ h1, h2, h3, h4 {
     color: #969696;
     line-height: 1.1rem;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 h2 {
@@ -44,6 +45,11 @@ h3 {
 
 a {
     text-decoration: none;
+    text-transform: uppercase;
+    color:#000;
+    font-size: .8rem;
+    font-weight: 100;
+    letter-spacing: .2rem;
 }
 
 img {
@@ -67,3 +73,37 @@ img {
 .component__code {
     border: 1px solid #000;
 }
+
+/* Header Styles */
+.header__wordmark {
+   color: var(--black);
+    font-size: 3.7rem;
+    letter-spacing: .3rem;
+}
+
+.header__nav--link {
+    font-size: .5rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+}
+
+.nav-bar_button--help {
+    background-color: #E61517;
+    border: none;
+    letter-spacing: .15rem;
+    color: white;
+    font-size: .65rem;
+    padding: .6rem 1.3rem;
+  }
+
+  .header__button--coupon {
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: Noto Sans JP;
+    font-size: .65rem;
+    padding: .6rem 1.7rem;
+  }
+
+  .fa-brands {
+    margin: 0 1.7rem; 
+  }
