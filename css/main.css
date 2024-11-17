@@ -20,6 +20,7 @@ body {
     color: var(--black);
     line-height: 1.7;
     font-size: 1.08rem;
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -62,6 +63,7 @@ img {
 .component__h1, .component__h2 {
     color:#000;
     letter-spacing: 0;
+    margin: .6rem auto .6rem .8rem;
 }
 
 .component__name {
@@ -210,3 +212,30 @@ img {
     padding: 1rem;
 }
 
+/* Salon Section Stlyes */
+
+.salon__card {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+
+.salon__card--img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.salon__card--name {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    color: #fff;  
+    font-size: 1.1rem; 
+    text-align: center;
+    letter-spacing: .1rem;
+    white-space: nowrap;
+}
