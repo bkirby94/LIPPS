@@ -69,6 +69,7 @@ img {
     font-weight: 500;
     padding: 1rem;
     margin: 0 auto;
+    text-transform: lowercase;
 }
 
 .component img {
@@ -143,4 +144,42 @@ img {
     font-size: .5rem;
     letter-spacing: .15rem;
     text-transform: uppercase;
+    justify-content: center;
+}
+
+/* News Section Styles */
+
+.section__news--card {
+    width: 210px;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__news--card__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85px;
+    margin: 0 auto 1.2rem auto;
+}
+
+.section__news--card__title {
+    display: flex;
+    justify-content: center;
+    font-family: Noto Sans JP;
+    font-size: .7rem;
+    color: #4f4f4f;
+}
+
+.section__news--card__date {
+    display: flex;
+    font-family: Work Sans;
+    font-size: .75rem;
+    color: #969696;
+    align-self: flex-start;
+    margin: 1rem .5rem .3rem .5rem;
+    letter-spacing: .1rem;;
 }
