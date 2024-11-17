@@ -13,9 +13,9 @@
         <link href="../css/normalize.css" rel="stylesheet"/>
     </head>
     <body>
-        <h1>Web Components</h1>
+        <h1 class="component__h1">Web Components</h1>
 
-        <h2>Typography Defaults</h2>
+        <h2 class="component__h2">Typography Defaults</h2>
 
             <article class="component">
             <h3 class="component__name"> Body</h3>
@@ -48,7 +48,7 @@
             </div>
             </article>
        
-        <h2>Header Styles</h2>
+        <h2 class="component__h2">Header Styles</h2>
         <article class="component">
             <h3 class="component__name">Wordmark</h3>
             <div class="component__img">
@@ -119,10 +119,85 @@
                 src="images/header__nav.png" alt="header nav"/>
             </div>
             <div class="component__code">
-                <a class=".header__nav--link" href="https://lipps-hair.com/concept/">Concept</a>
+                <nav class="header__nav">
+                    <a class="nav-link" href="https://mens-hairstyle.jp/">HAIR STYLE</a>
+                    <a class="nav-link" href="https://lipps-hair.com/salon/">SALON</a>
+                    <a class="nav-link" href="https://lipps-hair.com/staff/">STAFF</a>
+                    <a class="nav-link" href="https://lipps-hair.com/news/">NEWS</a>
+                    <a class="nav-link" href="https://lipps-hair.com/menu-2022/">MENU</a>
+                    <a class="nav-link" href="https://lipps-hair.com/concept/">CONCEPT</a>
+                    <a class="nav-link" href="https://history.lipps.co.jp/">HISTORY</a>
+                    <a class="nav-link" href="https://lipps-product.com/">PRODUCT</a>
+                    <a class="nav-link" href="https://lipps-hair.com/recruit/">RECRUIT</a>
+                </nav>
             </div>
         </article>
 
+        <article class="component">
+            <h3 class="component__name">.header</h3>
+            <div class="component__img">
+                <img srcset="images/header.png 2x"
+                src="images/header.png" alt="header"/>
+            </div>
+            <div class="component__code">
+                <div class="header">
+                    <div class="header__row1">
+                        <a class="header__logo--img" href="https://lipps-hair.com/"><img class="header__logo--img" src="images/header__logo--img.png" alt="Lipps logo"></a>
+                        <a href="https://lipps-hair.com/"><h1 class="header__wordmark">LIPPS</h1></a>
+                        <div class="header__button--cluster">
+                            <div class="header__button--group">
+                                <a href="https://lipps-hair.com/contact/"><button class="nav-bar_button--help">24H Web予約</button></a>
+                                <a href="https://lipps-hair.com/contact/"><button class="header__button--coupon">クーポン</button></a>
+                            </div>
+                            <div class="header__button--icons">
+                                <span style="color: gray">
+                                    <i class="fa-brands fa-instagram fa-lg"></i>
+                                </span>
+                                <span style="color: gray">
+                                    <i class="fa-brands fa-youtube fa-lg"></i>
+                                </span>
+                                <span style="color: gray">
+                                    <i class="fa-brands fa-twitter fa-lg"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="attempt-row2">
+                        <a class="nav-link" href="https://mens-hairstyle.jp/">HAIR STYLE</a>
+                        <a class="nav-link" href="https://lipps-hair.com/salon/">SALON</a>
+                        <a class="nav-link" href="https://lipps-hair.com/staff/">STAFF</a>
+                        <a class="nav-link" href="https://lipps-hair.com/news/">NEWS</a>
+                        <a class="nav-link" href="https://lipps-hair.com/menu-2022/">MENU</a>
+                        <a class="nav-link" href="https://lipps-hair.com/concept/">CONCEPT</a>
+                        <a class="nav-link" href="https://history.lipps.co.jp/">HISTORY</a>
+                        <a class="nav-link" href="https://lipps-product.com/">PRODUCT</a>
+                        <a class="nav-link" href="https://lipps-hair.com/recruit/">RECRUIT</a>
+                    </nav>
+                </div>
+            </div>
+        </article>
+
+        <h2 class="component__h2">Hero Section</h2>
+        <article class="component">
+            <h3 class="component__name"></h3>
+            <div class="component__img">
+                <img srcset="images/header__nav.png 2x"
+                src="images/" alt="header nav"/>
+            </div>
+            <div class="component__code">
+                <nav class="header__nav">
+                    <a class="nav-link" href="https://mens-hairstyle.jp/">HAIR STYLE</a>
+                    <a class="nav-link" href="https://lipps-hair.com/salon/">SALON</a>
+                    <a class="nav-link" href="https://lipps-hair.com/staff/">STAFF</a>
+                    <a class="nav-link" href="https://lipps-hair.com/news/">NEWS</a>
+                    <a class="nav-link" href="https://lipps-hair.com/menu-2022/">MENU</a>
+                    <a class="nav-link" href="https://lipps-hair.com/concept/">CONCEPT</a>
+                    <a class="nav-link" href="https://history.lipps.co.jp/">HISTORY</a>
+                    <a class="nav-link" href="https://lipps-product.com/">PRODUCT</a>
+                    <a class="nav-link" href="https://lipps-hair.com/recruit/">RECRUIT</a>
+                </nav>
+            </div>
+        </article>
 
 
     </body>

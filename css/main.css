@@ -40,9 +40,6 @@ h3 {
     letter-spacing: .15rem;
 }
 
-
-/* Components */
-
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -57,8 +54,21 @@ img {
     display: block;
 }
 
+/* Components */
 .component {
     margin: 1rem;
+}
+
+.component__h1, .component__h2 {
+    color:#000;
+}
+
+.component__name {
+   background-color: #969696;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 0 auto;
 }
 
 .component img {
@@ -72,23 +82,37 @@ img {
 
 .component__code {
     border: 1px solid #000;
+    overflow-x: auto;
 }
 
 /* Header Styles */
+
+.header {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header__row1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 890px;
+  }
+
+  .header__logo--img {
+    display: inline-block;
+    width: 45px;
+  }
+
 .header__wordmark {
    color: var(--black);
     font-size: 3.7rem;
     letter-spacing: .3rem;
 }
 
-.header__nav--link {
-    font-size: .5rem;
-    letter-spacing: .15rem;
-    text-transform: uppercase;
-}
-
 .nav-bar_button--help {
-    background-color: #E61517;
+    background-color: #E61518;
     border: none;
     letter-spacing: .15rem;
     color: white;
@@ -107,3 +131,16 @@ img {
   .fa-brands {
     margin: 0 1.7rem; 
   }
+
+  nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .header__nav--link {
+    font-size: .5rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+}
