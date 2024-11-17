@@ -149,6 +149,19 @@ img {
 
 /* News Section Styles */
 
+.section__news--header {
+    display: flex;
+    justify-content: center;
+}
+
+.section__news--cards {
+    width: 1000px;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
 .section__news--card {
     width: 210px;
     height: 300px;
@@ -162,16 +175,19 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 85px;
+    width: 80px;
     margin: 0 auto 1.2rem auto;
 }
 
 .section__news--card__title {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
     font-family: Noto Sans JP;
     font-size: .7rem;
     color: #4f4f4f;
+    margin: 1rem auto 1rem .5rem;
 }
 
 .section__news--card__date {
@@ -183,3 +199,13 @@ img {
     margin: 1rem .5rem .3rem .5rem;
     letter-spacing: .1rem;;
 }
+
+.section__news--more {
+    color:#4f4f4f;
+    display: flex;
+    width: 1000px;
+    justify-content: flex-end;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
