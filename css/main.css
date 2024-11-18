@@ -215,7 +215,7 @@ img {
 /* Salon Section Stlyes */
 
 .section__salon--grid {
-    max-width: 1000px;
+    max-width: 950px;
     margin: 1rem auto;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -243,5 +243,4 @@ img {
     font-size: 1.1rem; 
     text-align: center;
     letter-spacing: .1rem;
-    white-space: nowrap;
 }
