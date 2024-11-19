@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: .15rem;
 }
 
@@ -242,4 +242,22 @@ img {
     font-size: 1.1rem; 
     text-align: center;
     letter-spacing: .1rem;
+}
+
+/* Menu Section Styles */
+
+.menu__card {
+    position: relative;
+    display: inline-block;
+}
+
+.menu__card--img {
+    display: block;
+}
+
+.menu__card--header {
+    text-align: center; 
+    background-color: transparent; 
+    font-size: 1.6rem;
+    letter-spacing: .15rem;
 }
