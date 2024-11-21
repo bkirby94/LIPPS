@@ -244,6 +244,7 @@ img {
     letter-spacing: .1rem;
 }
 
+
 /* Menu Section Styles */
 
 .menu__grid {
@@ -268,4 +269,40 @@ img {
     text-align: center; 
     font-size: 1.6rem;
     letter-spacing: .15rem;
+}
+
+
+/* Social Media Section Styles */ 
+
+.instagram__header {
+    display: flex;
+}
+
+.social__column--instagram {
+    display: inline-block;
+}
+
+.instagram__handle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social__column--handle {
+    text-transform: lowercase;
+    display: flex;
+    color: #4f4f4f;
+    font-size: 1.15rem;
+    margin: 0;
+}
+
+.picture__icon {
+    display: inline-block;
+    margin: 0;
+    color: #4f4f4f;
+}
+
+.social__column--count {
+    display: inline-block;
+    margin: 0;
 }
