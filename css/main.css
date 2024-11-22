@@ -306,3 +306,29 @@ img {
     display: inline-block;
     margin: 0;
 }
+
+.insta__grid {
+    max-width: 286px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.insta__button--load {
+    color: white;
+    background-color: #333;
+    font-family: Work Sans;
+    letter-spacing: .15rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.insta__button--follow {
+    color: white;
+    background-color: #333;
+    font-family: Work Sans;
+    letter-spacing: .15rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
