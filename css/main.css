@@ -274,8 +274,38 @@ img {
 
 /* Social Media Section Styles */ 
 
+.social__grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.social__column {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.social__column--youtube {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-left: 1px solid #969696;
+    border-right: 1px solid #969696;
+}
+
 .instagram__header {
     display: flex;
+    margin: 2rem auto;
 }
 
 .social__column--instagram {
@@ -320,15 +350,37 @@ img {
     background-color: #333;
     font-family: Work Sans;
     letter-spacing: .15rem;
-    padding: .5rem;
+    padding: .5rem .7rem;
     border-radius: 5px;
+    border: 0;
+    margin: 1rem auto .5rem auto;
 }
 
 .insta__button--follow {
     color: white;
-    background-color: #333;
+    background-color: #318CE7;
     font-family: Work Sans;
     letter-spacing: .15rem;
     padding: .5rem;
     border-radius: 5px;
+    border: 0;
+    text-align: center;
+}
+
+.social__youtube--img {
+    margin: .6rem auto;
+}
+
+.social__twitter--header {
+    text-wrap: nowrap;
+}
+
+.social__link {
+    text-transform: none;
+    text-decoration: underline;
+    text-wrap: nowrap;
+}
+
+.social__footer {
+    text-align: center;
 }
