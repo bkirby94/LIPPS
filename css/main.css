@@ -94,6 +94,8 @@ img {
 .header {
     width: 1000px;
     margin: 0 auto;
+    padding: 0 0 2rem 0;
+    border-bottom: solid .8px #969696;
   }
   
   .header__row1 {
@@ -149,6 +151,23 @@ img {
     text-transform: uppercase;
     justify-content: center;
 }
+
+/* Linked Images Style */
+.hero_img { 
+    margin: 3rem auto;
+}
+
+.linked_img { 
+    margin: .6rem auto 3rem auto;
+}
+
+.linked_img--header {
+    display: flex;
+    margin: 2rem auto 0 auto;
+    justify-content: center;
+    text-transform: none;
+}
+
 
 /* News Section Styles */
 
